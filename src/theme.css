@@ -1,0 +1,64 @@
+@theme {
+  /**** COULEURS — Design system ****/
+
+  /* Fonds */
+  --color-background: oklch(0.9792 0.0124 164.81); /* Fond vert clair global */
+  --color-surface: oklch(1 0 0);                   /* Fond blanc (cards, sections, champs) */
+  --color-projects: oklch(0.9656 0.0186 171.51);   /* Fond section projets */
+  --color-primary: oklch(0.93 0.035 175);          /* Boutons + cards projets */
+
+  /* Accents & textes importants */
+  --color-accent: oklch(0.76 0.14 65);             /* Mots mis en avant */
+  --color-strong: oklch(0.53 0.105 180);           /* Titres forts / éléments importants */
+
+  /* Typographies */
+  --color-heading: oklch(0.31 0.025 180);          /* h1, h2, h3, logo */
+  --color-text: oklch(0.48 0.035 180);             /* Paragraphes */
+  --color-text-button: oklch(0.42 0.09 185);       /* Texte des boutons */
+
+  /* Bordures */
+  --color-section-border: oklch(0.903 0.0218 174.95);
+
+
+  /**** TYPOGRAPHIES ****/
+
+  /* Polices */
+  --font-heading: "Outfit", sans-serif;   /* Titres */
+  --font-body: "Figtree", sans-serif;     /* Paragraphes */
+
+  /* Épaisseurs */
+  --font-weight-h1: var(--font-weight-extrabold); /* 800 */
+  --font-weight-heading: var(--font-weight-bold); /* 700 */
+  --font-weight-text: var(--font-weight-semibold); /* 600 */
+
+  /**** TAILLES DE TEXTE *****/
+
+  /* Titres */
+  --text-h1: var(--text-7xl);
+  --text-h2: var(--text-5xl);
+  --text-h3: var(--text-2xl);
+
+  /* Paragraphes */
+  --text-body-sm: var(--text-sm);
+  --text-body-base: var(--text-base);
+  --text-body-xs: var(--text-xs);
+
+
+  /***** ESPACEMENTS — Layout global *****/
+
+  /* Sections */
+  --spacing-section-x: 32px;
+  --spacing-section-y: 80px;
+
+  /* Navigation */
+  --spacing-nav-x: 32px;
+  --spacing-nav-y: 20px;
+
+  /* Footer */
+  --spacing-footer-x: 32px;
+  --spacing-footer-y: 40px;
+  --spacing-footer-bottom: 32px;
+
+}
+
+
