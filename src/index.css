@@ -1,4 +1,14 @@
-/* Import des polices */
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Figtree:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
-@import "./theme.css"
+@import "./theme.css";
+
+
+.nav-link {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.3rem;
+}
+
+.nav-link:hover {
+  color: var(--color-strong);
+  background-color: var(--color-primary);
+}
