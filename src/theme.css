@@ -15,6 +15,7 @@
   --color-heading: oklch(0.31 0.025 180);          /* h1, h2, h3, logo */
   --color-text: oklch(0.48 0.035 180);             /* Paragraphes */
   --color-text-button: oklch(0.42 0.09 185);       /* Texte des boutons */
+  --color-text-code: oklch(0.52 0.11 145);  
 
   /* Bordures */
   --color-section-border: oklch(0.903 0.0218 174.95);
@@ -23,6 +24,7 @@
   /**** TYPOGRAPHIES ****/
 
   /* Polices */
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,"Liberation Mono", "Courier New", monospace;
   --font-heading: "Outfit", sans-serif;   /* Titres */
   --font-body: "Figtree", sans-serif;     /* Paragraphes */
 
