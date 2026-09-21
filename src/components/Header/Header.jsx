@@ -1,5 +1,4 @@
 import Badge from "../Badge"
-import Button from "../Button"
 import HeaderCodeCard from "./HeaderCodeCard"
 
 function Header () {
