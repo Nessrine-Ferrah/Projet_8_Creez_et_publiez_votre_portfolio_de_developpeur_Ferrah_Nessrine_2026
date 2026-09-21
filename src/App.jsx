@@ -3,7 +3,7 @@ import Header from './components/Header/Header'
 import About from './components/About'
 import Skills from './components/Skills/Skills'
 import CareerPath from './components/Career/CareerPath'
-
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <About />
       <Skills />
       <CareerPath />
+      <Footer />
     </>
   )
 }
