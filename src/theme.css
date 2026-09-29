@@ -19,7 +19,7 @@
 
   /* Bordures */
   --color-section-border: oklch(0.903 0.0218 174.95);
-
+  --color-input-border: oklch(0.84 0.035 180);
 
   /**** TYPOGRAPHIES ****/
 
@@ -63,4 +63,8 @@
 
 }
 
-
+input[type="email"]:focus {
+  outline: none;
+  border-color: var(--color-strong);
+  box-shadow: 0 0 0 2px var(--color-strong);
+}
