@@ -11,4 +11,37 @@
 .nav-link:hover {
   color: var(--color-strong);
   background-color: var(--color-primary);
+  transition-duration: 300ms;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  @keyframes code-pulse {
+     0% {
+      transform: scaleX(1);
+      opacity: 1;
+      transform-origin: left;
+    }
+    50% {
+      transform: scaleX(0.5);
+      opacity: 0.4;
+      transform-origin: left;
+    }
+    100% {
+      transform: scaleX(1);
+      opacity: 1;
+      transform-origin: left;
+    }
+  }
+}
+
+@layer utilities{
+  .animate {
+    animation: 1.8s ease-in-out infinite code-pulse;
+  }
 }

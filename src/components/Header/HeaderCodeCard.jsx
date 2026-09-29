@@ -1,6 +1,6 @@
 function HeaderCodeCard () {
     return (
-        <article className="flex flex-col w-full max-w-130 max-h-[292px] bg-surface border border-section-border rounded-lg shadow-lg">
+        <article className="flex flex-col w-full lg:max-w-130 max-h-[292px] bg-surface border border-section-border rounded-lg shadow-lg">
             <div className="flex items-center justify-between max-h-10 px-5 py-3 border-b border-section-border">
                 <div className="flex gap-2">
                     <span class="inline-block w-3 h-3 rounded-full bg-accent"></span>
@@ -28,7 +28,10 @@ function HeaderCodeCard () {
                     objectif: <span className="text-text-code">"Créer avec soin"</span>
                 </p>
                 <span className="text-heading">{`};`}</span>
+
+                <div className="h-1 bg-accent rounded-full w-16 mt-4 animate"></div>
            </div>
+           
         </article>
     )
 }
