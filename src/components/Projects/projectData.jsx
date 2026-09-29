@@ -1,0 +1,32 @@
+export const projectData = [
+    {
+        "imageUrl": "images/projet-kasa.webp",
+        "date": "Projet 5 · 2026",
+        "title": "Application web de location immobilière avec React",
+        "contenu":"Front-end multipage en React et React Router, composants réutilisables, animations CSS et données issues d'un fichier JSON.",
+        "items": ["React", "React Router", "Vite"],
+        "objectifs": [
+            "Initialiser une application avec Vite",
+            "Configurer la navigation avec React Router",
+            "Développer l'interface avec des composants React",
+            "Mettre en œuvre des animations CSS",
+            "Développer une interface web avec Sass"
+        ],
+        "apprentissage": "Penser en composants a changé ma façon de coder : état, props, routes et styles modulaires dans une vraie application.",
+        "github": "https://github.com/Nessrine-Ferrah/Projet_5_Creez_une_application_web_de_location_immobiliere_avec_React_Ferrah_Nessrine_2026",
+    },
+    {
+        "imageUrl": "images/projet-backend.webp",
+        "date": "Projet 6 · 2026",
+        "title": "Back-end d'un site de notation de livres",
+        "contenu":"API RESTful sécurisée avec Express et MongoDB : CRUD, authentification, upload et optimisation d'images, notes moyennes.",
+        "items": ["Node.js", "Express", "MongoDB"],
+        "objectifs": [
+            "Mettre en œuvre des opérations CRUD de manière sécurisée",
+            "Stocker des données de manière sécurisée",
+            "Implémenter un modèle logique de données conforme à la réglementation",
+        ],
+        "apprentissage": "J'ai découvert l'autre côté du web : modèles de données, sécurité, hachage des mots de passe et structure MVC.",
+        "github": "https://github.com/Nessrine-Ferrah/Projet_6_Developpez_le_back-end_d-un_site_de_notation_de_livres_Ferrah_Nessrine_2026",
+    }
+]
