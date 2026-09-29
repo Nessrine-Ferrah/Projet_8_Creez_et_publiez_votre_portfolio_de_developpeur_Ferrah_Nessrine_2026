@@ -1,5 +1,5 @@
 import Item from "../Item"
-import {skillData} from "./skillData"
+import skillData from "./skillData.json"
 
 function Skills () {
     return (

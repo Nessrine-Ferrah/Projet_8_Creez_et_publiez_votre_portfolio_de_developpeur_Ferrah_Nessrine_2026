@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-import { projectData } from "./projectData";
+import projectData from "./projectData.json";
 
 function Projects () {
     return (

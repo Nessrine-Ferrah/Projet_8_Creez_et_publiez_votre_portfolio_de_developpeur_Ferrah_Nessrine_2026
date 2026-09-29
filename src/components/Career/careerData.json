@@ -1,4 +1,4 @@
-export const careerData = [
+[
   {
     "date": "2025",
     "title": "Découverte du développement web",

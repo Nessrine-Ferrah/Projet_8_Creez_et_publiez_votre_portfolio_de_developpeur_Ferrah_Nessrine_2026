@@ -1,4 +1,4 @@
-import { careerData } from "./careerData"
+import careerData from "./careerData.json"
 import Item from "../Item"
 
 function CareerPath () {
