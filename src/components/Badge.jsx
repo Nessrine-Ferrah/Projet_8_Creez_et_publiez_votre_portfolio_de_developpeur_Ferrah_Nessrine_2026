@@ -1,6 +1,6 @@
-function Badge ({children}) {
+function Badge ({children, className = "" }) {
     return (
-        <span className="inline-block px-4 py-2 bg-primary text-text-button font-semibold rounded-3xl">
+        <span className={`inline-block  bg-primary text-text-button font-semibold  rounded-3xl ${className}`}>
             {children}
         </span>
     )
