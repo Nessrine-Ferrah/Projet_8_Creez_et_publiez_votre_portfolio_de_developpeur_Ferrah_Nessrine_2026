@@ -31,7 +31,12 @@ function ContactForm () {
     setError(false);
 
     emailjs
-      .send("service_d3gteya", "template_cuyzmgs", data, "gyE23p5oD0Tb68mmB")
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        data,
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
       .then(() => {
         setSuccess(true);
         reset();
