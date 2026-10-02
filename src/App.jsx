@@ -12,11 +12,13 @@ function App() {
     <>
       <Navigation />
       <Header />
-      <About />
-      <Skills />
-      <Projects />
-      <CareerPath />
-      <Contact />
+      <main>
+        <About />
+        <Skills />
+        <Projects />
+        <CareerPath />
+        <Contact />
+      </main>
       <Footer />
     </>
   )

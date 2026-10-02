@@ -1,16 +1,86 @@
-# React + Vite
+# Portfolio Développeuse Web (React 19 / Vite / Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Présentation
+Ce projet est un portfolio professionnel développé avec React 19 et Vite, stylisé avec Tailwind CSS, et intégrant un formulaire de contact complet grâce à React Hook Form, Zod et EmailJS.
+Il présente mon parcours, mes compétences, mes projets, ainsi que mes informations de contact.
 
-Currently, two official plugins are available:
+## Technologies utilisées
+Frontend :
+- React 19
+- Vite (build ultra rapide)
+- Tailwind CSS 4
+- Lucide React (icônes modernes)
+- React Hook Form (gestion du formulaire)
+- Zod (validation typée)
+- EmailJS (envoi d’e-mails côté client)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Configuration : Variables d’environnement via .env
 
-## React Compiler
+Déploiement sur Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Formulaire de contact
+Le formulaire utilise :
+- React Hook Form pour la gestion des champs
+- Zod pour la validation stricte
+- EmailJS pour l’envoi des messages
+- Gestion des états : loading, success, error
+- Validation en temps réel (mode: "onChange")
+- Variables d’environnement nécessaires :
+Créer un fichier .env à la racine :
 
-## Expanding the ESLint configuration
+VITE_EMAILJS_SERVICE_ID=xxxx
+VITE_EMAILJS_TEMPLATE_ID=xxxx
+VITE_EMAILJS_PUBLIC_KEY=xxxx
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Les variables doivent commencer par VITE_ pour être accessibles dans Vite.
+
+## Installation
+
+1. Cloner le projet
+git clone https://github.com/ton-repo/portfolio.git
+cd portfolio
+
+2. Installer les dépendances : npm install
+3. Ajouter les variables d’environnement
+Créer un fichier .env :
+
+VITE_EMAILJS_SERVICE_ID=xxxx
+VITE_EMAILJS_TEMPLATE_ID=xxxx
+VITE_EMAILJS_PUBLIC_KEY=xxxx
+
+4. Lancer le projet en local : npm run dev
+
+## Styles
+- Le projet utilise Tailwind CSS 4 avec une configuration personnalisée :
+- Palette de couleurs adaptée au portfolio
+- Typographies personnalisées
+- Layout responsive (mobile-first)
+- Composants réutilisables
+
+## Déploiement
+Le projet est déployé sur Vercel.
+
+Chaque push sur la branche principale déclenche un déploiement automatique.
+
+## Sécurité
+- Les clés EmailJS sont stockées dans un fichier .env
+- Aucun secret n’est exposé dans le code
+- Le formulaire est validé côté client avec Zod
+
+## Optimisation & Accessibilité
+
+- Structure HTML sémantique (header, main, footer)
+- Audit Lighthouse : bonnes pratiques, performance, SEO
+- Balises meta optimisées (title, description)
+- Navigation fluide et responsive
+
+## Auteur
+Nessrine — Développeuse Web Front-End  
+Passionnée par l’intégration web, le design moderne, et les interfaces performantes.
+
+## Contact
+Pour toute collaboration ou demande professionnelle :
+=> Via le formulaire du site
+
+
+
