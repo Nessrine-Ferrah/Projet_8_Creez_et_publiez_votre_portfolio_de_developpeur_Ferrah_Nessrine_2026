@@ -14,7 +14,7 @@ function Header () {
                     <h1 className="max-w-[434px]  font-heading text-5xl sm:text-h1 text-heading font-h1 leading-14 sm:leading-19">Nessrine <span className="text-strong">Développeuse web.</span></h1>
                     <p className="mt-7 text-lg font-body text-text ">Je transforme des idées en expériences web claires, accessibles et agréables à utiliser, du front-end au back-end.</p>
                 </div>
-                <div className="flex gap-4 mt-9">
+                <div className="flex flex-col sm:flex-row gap-4 mt-9 ">
                     <Button  icon={<ArrowDown size={16}/>} variant={"dark"} size={"md"} href={"#projects"}>
                         Voir mes projets
                     </Button>

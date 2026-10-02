@@ -9,7 +9,7 @@ function HeaderCodeCard () {
                 </div>
                 <p className="font-mono text-text text-body-xs">nessrine.js</p>
             </div>
-           <div className="p-6 text-base font-mono leading-6 ">
+            <div className="p-6 text-body-xs sm:text-body-base font-mono leading-6 ">
                 <p className="mb-2">
                     <span className="text-accent">const </span> 
                     <span className="text-strong">developpeuse </span>
@@ -28,10 +28,8 @@ function HeaderCodeCard () {
                     objectif: <span className="text-text-code">"Créer avec soin"</span>
                 </p>
                 <span className="text-heading">{`};`}</span>
-
                 <div className="h-1 bg-accent rounded-full w-16 mt-4 animate"></div>
            </div>
-           
         </article>
     )
 }
