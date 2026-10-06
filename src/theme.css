@@ -63,8 +63,3 @@
 
 }
 
-input[type="email"]:focus {
-  outline: none;
-  border-color: var(--color-strong);
-  box-shadow: 0 0 0 2px var(--color-strong);
-}

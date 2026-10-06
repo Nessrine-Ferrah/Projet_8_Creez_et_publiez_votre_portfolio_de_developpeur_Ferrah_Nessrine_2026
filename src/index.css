@@ -3,15 +3,17 @@
 @import "./theme.css";
 
 
-.nav-link {
-  padding: 0.5rem 0.75rem;
-  border-radius: 0.3rem;
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
 }
 
-.nav-link:hover {
-  color: var(--color-strong);
-  background-color: var(--color-primary);
-  transition-duration: 300ms;
+@layer base {
+  button,
+  a {
+    cursor: pointer;
+  }
 }
 
 @layer base {
@@ -44,5 +46,22 @@
   .animate {
     animation: 1.8s ease-in-out infinite code-pulse;
   }
+}
+
+#root {
+  max-width: 1280px;;
+  margin: 0 auto;
+  min-height: 100svh;
+}
+
+.nav-link {
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.3rem;
+}
+
+.nav-link:hover {
+  color: var(--color-strong);
+  background-color: var(--color-primary);
+  transition-duration: 300ms;
 }
 
