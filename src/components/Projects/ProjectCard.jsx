@@ -31,15 +31,23 @@ function ProjectCard ({project}) {
             {open && (
                 <div className="mt-5">
                     <p className="text-heading font-bold">Objectifs du projet</p>
-                    <ul className="list-disc pl-5 mt-2 text-body-sm text-text">
+                    <ul className="list-disc pl-5 mt-2 text-body-sm text-text mb-6 marker:text-accent marker:text-xs">
                         {project.objectifs.map((objectif, index) => (
                         <li key={index}>{objectif}</li>
                         ))}
                     </ul>
-
-                    <p className="text-heading font-bold mt-4">Ce que j'ai appris</p>
-                    <p className="text-body-sm text-text mt-2 mb-5">{project.apprentissage}</p>
-
+                    <p className="text-heading font-bold">Compétences & réalisations</p>
+                    <ul className="list-disc pl-5 mt-2 text-body-sm text-text mb-6 marker:text-accent marker:text-xs">
+                        {project.competences.map((competence, index) => (
+                        <li key={index}>{competence}</li>
+                        ))}
+                    </ul>
+                    <p className="text-heading font-bold">Axes d’amélioration</p>
+                    <ul className="list-disc pl-5 mt-2 text-body-sm text-text mb-8 marker:text-accent marker:text-xs">
+                        {project.axesAmelioration.map((axe, index) => (
+                        <li key={index}>{axe}</li>
+                        ))}
+                    </ul>
                     <Button 
                         icon={<img  src="/icons/github-icon.svg" alt="lien gitHub" className="inline-block ml-1.5 w-5"/>} 
                         variant="dark" target="blank" 
