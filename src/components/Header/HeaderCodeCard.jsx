@@ -11,7 +11,7 @@ function HeaderCodeCard () {
             </div>
             <div className="p-6 text-body-xs sm:text-body-base font-mono leading-6 ">
                 <p className="mb-2">
-                    <span className="text-accent">const </span> 
+                    <span className="text-[#8f5106]">const </span> 
                     <span className="text-strong">developpeuse </span>
                     <span className="text-heading" >{`= {`}</span>
                 </p>
